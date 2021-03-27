@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnvDTE" Version="16.9.31023.347" />
+    <PackageReference Include="Microsoft.VisualStudio.VCProjectEngine" Version="16.9.31025.104" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSslnToCMake\VSslnToCMake.csproj" />
+  </ItemGroup>
+
+</Project>
